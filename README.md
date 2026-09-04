@@ -68,8 +68,9 @@ for people and must not compete with each other for Google. Exactly one of them 
 and 6,360 URLs sitting under that status is the evidence that the canonical tags are doing
 their job rather than a backlog to clear.
 
-The arithmetic closes: **17,200 indexed plus 6,360 alternates** is every URL Google knows on
-the domain, against the **17,304 canonical pages** the build publishes.
+Two different counts, and it is worth keeping them apart: Google knows **23,560 URLs** on the
+domain — 17,200 indexed plus 6,360 alternates it consolidated. The build publishes **17,304
+canonical pages**, of which 17,200 are indexed today.
 
 ![Google Search Console — 17,200 pages indexed, 6,360 alternates consolidated by canonical](img/oficinavision-indexacao.png)
 
@@ -111,9 +112,12 @@ link or an orphan page. And no page carries a licence plate, a chassis number, o
 that identifies a person or their vehicle — a public catalogue of defects must never become a
 public catalogue of owners.
 
-**The logged-in area is blocked in `robots.txt`.** 17,304 public pages and a customer portal
-live on the same domain family. The mistake that quietly indexes the portal is one line of
-configuration away, so the block is explicit and checked.
+**The catalogue and the logged-in app are separate hosts.** 17,304 public pages on one
+domain, the customer portal on another, so a crawl rule for one cannot leak into the other by
+accident. On the catalogue host, `robots.txt` also blocks `/api/` and the search index.
+
+Honest note: the app host currently serves a permissive `robots.txt`, which is a gap I am
+closing rather than a claim I am making.
 
 **One codebase, fourteen segments.** Mechanics, car wash, detailing and eleven others differ
 in vocabulary, catalogue and workflow — not in architecture. They are configuration profiles
@@ -220,8 +224,9 @@ as pessoas e não podem competir entre si no Google. Exatamente uma delas é a c
 URLs sob esse status são a prova de que as canônicas estão fazendo o trabalho delas, não uma
 fila para limpar.
 
-A conta fecha: **17.200 indexadas mais 6.360 alternativas** é tudo que o Google conhece no
-domínio, contra as **17.304 páginas canônicas** que o build publica.
+São duas contagens diferentes, e vale manter separadas: o Google conhece **23.560 URLs** no
+domínio — 17.200 indexadas mais 6.360 alternativas que ele consolidou. O build publica **17.304
+páginas canônicas**, das quais 17.200 estão indexadas hoje.
 
 ![Google Search Console — 17.200 páginas indexadas, 6.360 alternativas consolidadas por canônica](img/oficinavision-indexacao.png)
 
@@ -238,9 +243,12 @@ ou página órfã. E nenhuma página carrega placa, chassi, ou qualquer coisa qu
 pessoa ou o veículo dela — catálogo público de defeitos não pode virar catálogo público de
 donos.
 
-**A área logada é bloqueada no `robots.txt`.** 17.304 páginas públicas e um portal de cliente
-convivem na mesma família de domínio. O erro que indexa o portal sem ninguém perceber está a
-uma linha de configuração de distância, então o bloqueio é explícito e conferido.
+**O catálogo e o app logado são hosts separados.** 17.304 páginas públicas em um domínio, o
+portal do cliente em outro, de modo que regra de rastreio de um não vaza para o outro por
+acidente. No host do catálogo, o `robots.txt` também bloqueia `/api/` e o índice de busca.
+
+Nota honesta: o host do app hoje serve um `robots.txt` permissivo, e isso é uma lacuna que
+estou fechando, não algo que eu esteja alegando ter resolvido.
 
 **Uma base de código, quatorze segmentos.** Mecânica, lava-jato, estética e outros onze
 diferem em vocabulário, catálogo e fluxo — não em arquitetura. São perfis de configuração
