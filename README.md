@@ -19,7 +19,7 @@ opened and filled by voice.
 | Average position in Google Search | **8.4** — first page, on average |
 | Workshops testing the platform, across 5 states | **17** |
 | Work orders in 6 months | **33,000+** (created in the system and migrated through integration) |
-| Business segments served by the same codebase | **14**, through configuration, no fork |
+| Business segments served by the same codebase | **14** and growing, through configuration, no fork |
 
 ---
 
@@ -125,8 +125,9 @@ accident. On the catalogue host, `robots.txt` also blocks `/api/` and the search
 Honest note: the app host currently serves a permissive `robots.txt`, which is a gap I am
 closing rather than a claim I am making.
 
-**One codebase, fourteen segments.** Mechanics, car wash, detailing and eleven others differ
-in vocabulary, catalogue and workflow — not in architecture. They are configuration profiles
+**One codebase, fourteen segments and counting.** Mechanics, car wash, detailing and eleven
+others differ in vocabulary, catalogue and workflow — not in architecture. Adding the next one
+is configuration, not code. They are configuration profiles
 over the same components, behind a kill switch. Forking the code per segment would have been
 faster once and unmaintainable forever.
 
@@ -181,7 +182,7 @@ onde a ordem de serviço é aberta e preenchida por voz.
 | Posição média no Google | **8,4** — primeira página, na média |
 | Oficinas testando a plataforma, em 5 estados | **17** |
 | Ordens de serviço em 6 meses | **33.000+** (geradas no sistema e migradas por integração) |
-| Segmentos atendidos pela mesma base de código | **14**, por configuração, sem fork |
+| Segmentos atendidos pela mesma base de código | **14** e crescendo, por configuração, sem fork |
 
 #### Dois problemas, um motor
 
@@ -262,7 +263,8 @@ acidente. No host do catálogo, o `robots.txt` também bloqueia `/api/` e o índ
 Nota honesta: o host do app hoje serve um `robots.txt` permissivo, e isso é uma lacuna que
 estou fechando, não algo que eu esteja alegando ter resolvido.
 
-**Uma base de código, quatorze segmentos.** Mecânica, lava-jato, estética e outros onze
+**Uma base de código, quatorze segmentos e contando.** Acrescentar o próximo é configuração,
+não código. Mecânica, lava-jato, estética e outros onze
 diferem em vocabulário, catálogo e fluxo — não em arquitetura. São perfis de configuração
 sobre os mesmos componentes, atrás de kill-switch. Forkar o código por segmento seria mais
 rápido uma vez e insustentável para sempre.
