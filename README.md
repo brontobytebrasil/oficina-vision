@@ -39,7 +39,13 @@ and today one of the larger free defect catalogues in Brazil by page count.
 The catalogue is not a marketing funnel bolted onto the product. It is the product's public
 half, and it is what brings people to the platform.
 
-![The catalogue front page: cars, motorcycles, trucks, buses, tractors, e-bikes, tools and OBD2 fault codes, all free and without login](img/catalogo.png)
+It is not only static pages either: thirteen free calculators sit alongside it — A/C gas
+charge, OBD2 code lookup, tyre size, torque tables, cost per kilometre, workshop hourly rate.
+No sign-up for any of them.
+
+![Thirteen free tools, no sign-up: A/C gas charge, OBD2 lookup, tyre size, torque, consumption and cost per km, hourly rate](img/ferramentas.png)
+
+![A model page in the catalogue: eighteen categories for one vehicle — A/C gas, engine oil, brakes, suspension, spark plugs, injection, cooling and more](img/catalogo-modelo.png)
 
 ## What the search data says
 
@@ -194,7 +200,13 @@ páginas.
 O catálogo não é funil de marketing pendurado no produto. Ele é a metade pública do produto, e
 é o que traz gente para a plataforma.
 
-![A capa do catálogo: carros, motos, caminhões, ônibus, tratores, e-bikes, ferramentas e códigos de falha OBD2, tudo grátis e sem login](img/catalogo.png)
+E não é só página estática: ao lado dele ficam treze calculadoras grátis — carga de gás do
+ar-condicionado, consulta de código OBD2, medida de pneu, tabela de torque, custo por
+quilômetro, valor-hora da oficina. Nenhuma delas pede cadastro.
+
+![Treze ferramentas grátis, sem cadastro: carga de gás, consulta OBD2, medida de pneu, torque, consumo e custo por km, valor-hora](img/ferramentas.png)
+
+![Uma página de modelo do catálogo: dezoito categorias para um veículo — gás do A/C, óleo do motor, freios, suspensão, velas, injeção, arrefecimento e mais](img/catalogo-modelo.png)
 
 #### O que o dado de busca diz
 
